@@ -78,10 +78,8 @@ public class Televisao {
         this.ligado = !this.ligado; //Inverte o valor do boolean (não sei se é isso kkk)
         if(ligado){ // Não entendi, seria por quê o só existem dois tipos de valores para boolean, positivo (O que entra no if) e negativo ( o que vai pro else)? Mas onde diz que o if será ativado se for verdadeiro?
             System.out.println(">>>>> TV Ligada!!");
-        } else {
-
-        }
+            } else {
+                System.out.println(">>>>> TV Desligada!!");
+            }
         }
     }
-
-}
