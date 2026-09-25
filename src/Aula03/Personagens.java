@@ -16,7 +16,8 @@ public class Personagens {
     }
 
     //contrutores parametrizados
-    public Personagens(String nome, int lvl){
+    public Personagens(String nome, int lvl){ // Criando um "Personagem" público, com as variáveis a serem
+        // recebidas sendo "String nome" e "int lvl", sendo variáveis locais
         this.nome = nome;
         this.lvl = lvl;
         this.vida = (int) (lvl * 54.25);
