@@ -1,4 +1,4 @@
-package Aula04;
+package Aula05;
 
 public class TesteControleRemoto {
     public static void main(String[] args){
@@ -8,7 +8,6 @@ public class TesteControleRemoto {
         System.out.println("Estado: "+ controle1.getStatus());
         System.out.println("Volume: "+ controle1.getVolume());
         System.out.println("----------------------------------------");
-
         System.out.println("Teste 01");
         controle1.setVolume(45);
         System.out.println("Volume: "+ controle1.getVolume());

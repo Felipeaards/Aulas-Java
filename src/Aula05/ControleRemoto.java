@@ -1,4 +1,4 @@
-package Aula04;
+package Aula05;
 
 public class ControleRemoto {
     //1. Definir atributos
@@ -125,11 +125,3 @@ public class ControleRemoto {
         }
     }
 }
-
-
-
-
-
-
-
-
